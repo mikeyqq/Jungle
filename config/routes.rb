@@ -2,10 +2,24 @@ Rails.application.routes.draw do
 
   root to: 'products#index'
 
+  get '/login' => 'sessions#new'
+  post '/login' => 'sessions#create'
+  get '/logout' => 'sessions#destroy'
+
+  get '/signup' => 'users#new'
+  post '/users' => 'users#create'
+
   get '/about' => 'about#show'
+
 
   resources :products, only: [:index, :show]
   resources :categories, only: [:show]
+  # get '/categories' to: 'categories#index'
+  # get '/categories/:id' to: 'categories#show'
+  # post '/categories' to: 'categories#create'
+  # get '/categories/:id/edit' to: 'categories#edit'
+  # put '/categories/:id' to: 'categories#update'
+  # delete '/categories/:id' to: 'categories#destroy'
 
   resource :cart, only: [:show] do
     post   :add_item
@@ -16,6 +30,7 @@ Rails.application.routes.draw do
 
   namespace :admin do
     root to: 'dashboard#show'
+    # get /admin/products, to: 'Admin::ProductsController#index'
     resources :products, except: [:edit, :update, :show]
     resources :categories, only: [:index, :new, :create]
   end
