@@ -1,7 +1,20 @@
 # Jungle
 
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
+The goal of this project was to be comfortable with being uncomfortable. Jungle was built with Ruby language and Rails framework, and both of these were completely new. This project mimicks real life on the job experience learning things on the fly.
 
+## TESTING
+
+Capybara
+RSpec
+Poltergeist
+Database Cleaner
+
+##Screenshot
+!["Screenshot description"](docs/home-page-admin.png)
+!["Screenshot description"](docs/home-page.png)
+!["Screenshot description"](docs/login-page.png)
+!["Screenshot description"](docs/signup-page.png)
 
 ## Setup
 
@@ -22,6 +35,6 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 
 ## Dependencies
 
-* Rails 4.2 [Rails Guide](http://guides.rubyonrails.org/v4.2/)
-* PostgreSQL 9.x
-* Stripe
+- Rails 4.2 [Rails Guide](http://guides.rubyonrails.org/v4.2/)
+- PostgreSQL 9.x
+- Stripe
