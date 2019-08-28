@@ -5,17 +5,17 @@ The goal of this project was to be comfortable with being uncomfortable. Jungle 
 
 ## TESTING
 
-Capybara
-RSpec
-Poltergeist
-Database Cleaner
+<li>Capybara</li>
+<li>RSpec</li>
+<li>Poltergeist</li>
+<li>Database Cleaner</li>
 
 ## Screenshot
 
-!["Screenshot description"](docs/home-page-admin.png)
-!["Screenshot description"](docs/home-page.png)
 !["Screenshot description"](docs/login-page.png)
 !["Screenshot description"](docs/signup-page.png)
+!["Screenshot description"](docs/home-page-admin.png)
+!["Screenshot description"](docs/home-page.png)
 
 ## Setup
 
