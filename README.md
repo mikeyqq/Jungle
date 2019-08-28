@@ -10,7 +10,8 @@ RSpec
 Poltergeist
 Database Cleaner
 
-##Screenshot
+## Screenshot
+
 !["Screenshot description"](docs/home-page-admin.png)
 !["Screenshot description"](docs/home-page.png)
 !["Screenshot description"](docs/login-page.png)
